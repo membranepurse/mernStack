@@ -1,0 +1,21 @@
+{
+  "name": "mernshopping",
+  "version": "1.0.0",
+  "description": "Shopping list built with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+	"server": "nodemon server.js"
+  },
+  "author": "Sager Brown",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
